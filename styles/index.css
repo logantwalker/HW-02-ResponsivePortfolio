@@ -5,6 +5,19 @@ body{
     background-image: url(../Assets/Images/hexabump.png);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+footer{    
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    border-top: 5px solid #58AAA5;
+    height:7.5%;
+    color:#cccccc;
+    font-size: smaller;
+    background-color:#666666;
+    text-align: center;
+    justify-content: center;
+}
 .navbar{
     padding:0px;
     background-color: #ffffff;
@@ -72,7 +85,7 @@ body{
 }
 #about-me-body{
     font-size: large;
-    color:rgb(44, 44, 44);
+    color:rgb(70, 70, 70);
     max-width:94%;
     margin-top:2%;
     margin-bottom:5%;
@@ -84,6 +97,8 @@ body{
 
 #about-me-body img{
     margin-right:2%;
+    min-width:30%;
+    float: left;
 }
 
 #about-me-body p{
@@ -98,10 +113,15 @@ body{
         max-width:100%;
     }
     #about-me-parent{
-    max-width:90%;
-    margin-left:5%;
-    margin-right:5%;
-}
+        max-width:90%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    #about-me-body img{
+        margin-right:2%;
+        min-width:40%;
+        float: left;
+    }   
 }
 
 
