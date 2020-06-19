@@ -1,1 +1,155 @@
-/* styling for indedx.htm /*
+/* styling for indedx.htm */
+
+/* generic topbar styling */
+body{
+    background-image: url(../Assets/Images/hexabump.png);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    padding:0px;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+    border-width: 1px;
+}
+.navbar-brand{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left:5%;
+    padding-left:2%;
+    padding-right:2%;
+    color:#ffffff!important;
+    height:100%;
+    background-color: #58AAA5;
+    text-align: center;
+    border-bottom: 1px solid #58AAA5;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+.navbar-brand h2{
+    margin-bottom: 0%;
+}
+.navbar-nav{
+    margin-right: 7%;
+}
+
+.nav-item{
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+}
+
+#borderNavItem{
+    border-left-style: solid;
+    border-right-style: solid; 
+    border-width: 1px; 
+    border-color: #cccccc;
+
+}
+.bg-light{
+    background-color: #ffffff!important;
+}
+
+
+/* specific to about me page */
+#about-me-parent{
+    margin-top:3%;
+    margin-left: 5%;
+    margin-right:auto;
+}
+#about-me-card{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    max-width:90%
+}
+#about-me-head{
+    color: #58AAA5;
+    max-width:94%;
+    padding-top:3%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:1%;
+    border-bottom:2px solid #CCCCCC;
+}
+#about-me-body{
+    font-size: large;
+    color:rgb(44, 44, 44);
+    max-width:94%;
+    margin-top:2%;
+    margin-bottom:5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0%;
+    
+}
+
+#about-me-body img{
+    margin-right:2%;
+}
+
+#about-me-body p{
+    margin-left:2%;
+    margin-right:2%;
+}
+
+
+/* for responsivity */
+@media screen and (max-width:768px){
+    #about-me-card{
+        max-width:100%;
+    }
+    #about-me-parent{
+    max-width:90%;
+    margin-left:5%;
+    margin-right:5%;
+}
+}
+
+
+@media screen and (max-width:767px){
+   .navbar-nav{
+       flex-direction: row;
+       justify-content: center;
+       margin-right:0%;
+   }
+
+   #borderNavItem{
+    border-left-style: solid;
+    border-right-style: solid; 
+    border-width: 1px; 
+    border-color: #cccccc;
+    padding-right:5%;
+    padding-left:5%;
+    text-align: center;
+   }
+
+   #collapse-left{
+       padding-right:5%;
+       text-align: center;
+   }
+
+   #collapse-right{
+        padding-left:5%;
+        text-align: center;
+   }
+   .navbar-brand{
+       width: 90%;
+       padding-left:9%;
+       margin-left:0%;
+       margin-right:auto;
+       padding-top:2%;
+       padding-bottom: 2%;
+   }
+   .navbar-toggler{
+       margin-right: .5%;
+   }
+   #about-me-card{
+       max-width:100%;
+   }
+   #about-me-parent{
+       margin-left:auto;
+       margin-right:auto;
+   }
+}
+}
+   
+   
