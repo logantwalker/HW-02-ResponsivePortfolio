@@ -1,1 +1,68 @@
 /* styling specific to portfolio page */
+#portfolio-parent{
+    margin-top:3%;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-bottom: 5%;
+    padding:0px;
+}
+
+#portfolio-card{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    max-width:90%;
+    margin-left:2%;
+    margin-bottom: 10%;
+    
+}
+#portfolio-head{
+    color: #58AAA5;
+    padding-left:1%;
+    padding-right: 0%;
+    padding-bottom:1%;
+    max-width:95%;
+    padding-top:3%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    margin-bottom:4%;
+    border-bottom:2px solid #CCCCCC;
+}
+
+#portfolio-item{
+    padding: 0% 0%;
+    min-width:50%;
+    max-width: 50%;
+    
+}
+#portfolio-item img{
+    object-fit: cover;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+
+}
+#portfolio-banner{
+    width:90%;
+    height:18%;
+    background-color: #58aaa5;
+    margin-left:5%;
+    margin-right:5%;
+    position: relative;
+    bottom:25%;
+    
+}
+
+#portfolio-banner h4{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 6%;
+    padding-top: 6%;
+    margin:0;
+    
+    
+}
+
+/* styling for responsivity */
+@media (max-width:768px){
+   
+}
