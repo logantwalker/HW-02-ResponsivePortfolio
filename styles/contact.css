@@ -1,0 +1,19 @@
+/* styling specific for contact page */
+.footer{
+    height: 7.5%;
+}
+
+#portfolio-card{
+    color:rgb(90, 90, 90);
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%;
+}
+
+.btn-primary{
+    background-color: #58AAA5;
+    border-color: #58AAA5;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}

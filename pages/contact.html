@@ -10,6 +10,8 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' href='../styles/index.css'>
+    <link rel='stylesheet' href='../styles/portfolio.css'>
+    <link rel='stylesheet' href='../styles/contact.css'>
 
     <title>Portfolio</title>
 </head>
@@ -37,8 +39,43 @@
             </ul>
         </div>
     </nav>
-    <main>
 
+    <!-- i wanted to avoid repetative css, so i am building the container for this page off of the portfolio page styling since they are very similar - hence the id values. -->
+    <main class='container container-xs container-sm container-md container-lg' id='portfolio-parent'>
+        <div class='row'>
+            <section class='col-xs-12 col-sm-12 col-md-10 col-lg-8' id='portfolio-card'>
+                <div class='row'>
+                    <!-- this is going to be the head of the contact page -->
+                    <div class='col-12' id='portfolio-head'>
+                        <h2>Contact</h2>
+                    </div>
+                    <!-- contact form -->
+                    <div class='col-12'>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Name</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="FirstName LastName">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="user@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                            </div>
+                            <button type='button' class='btn btn-primary'>
+                                submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </div>
     </main>
 
     <footer class="footer">
