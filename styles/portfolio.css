@@ -55,7 +55,7 @@
 #portfolio-banner h4{
     text-align: center;
     color: #ffffff;
-    padding-bottom: 6%;
+    padding-bottom: 0%;
     padding-top: 6%;
     margin:0;
     
@@ -102,9 +102,8 @@
     #portfolio-banner h4{
         text-align: center;
         color: #ffffff;
-        padding-bottom: 6%;
-        padding-top: 6%;
-        margin:0;   
+        padding-bottom: 0%;
+        padding-top: 8%; 
     }
 
     .footer{
